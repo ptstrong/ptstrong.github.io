@@ -17,8 +17,17 @@
     <link rel="stylesheet" as="font" href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Material+Icons&display=swap"/>
     <style>
         .slides { font-family: 'Inter', sans-serif; }
+        .background video
+        {
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          transform: translate(-50%, -50%);
+          min-width: 100%;
+          min-height: 100%;
+        }
     </style>
-     <meta name="robots" content="noindex, nofollow">
+    <meta name="robots" content="noindex, nofollow">
 </head>
 <body class="slides animated noPreload">
 <svg id="customSvgLibrary" xmlns="http://www.w3.org/2000/svg" style="display:none" id="customSvgLibrary">
@@ -102,7 +111,7 @@
         <li><a href="#business">Business</a></li>
         <li><a href="#insurance">Insurance</a></li>
         <li><a href="#hospitality">Travel &amp; Hospitality</a></li>
-        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#contact">Contact Us</a></li>
         <li><a href="#terms">Terms</a></li>
       </ul>
     </div>
@@ -127,15 +136,14 @@
       
     </ul>
     <ul class="subMenu small opacity-8">
-      <li><a href="#pricing">Pricing</a></li>
+      <li><a href="#contact">Contact Us</a></li>
       <li><a href="#terms">Terms</a></li>
-      <li><a href="#">Contact Us</a></li>
     </ul>
-    <ul class="social opacity-8">
+    <!-- <ul class="social opacity-8">
       <li><a href="#"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook"></use></svg></a></li>
       <li><a href="#"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a></li>
       <li><a href="#"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#instagram"></use></svg></a></li>
-    </ul>
+    </ul> -->
   </div>
 </nav>
 <!-- Slide 1 (#03) -->
@@ -169,31 +177,34 @@
       </div>
     </div>
   </div>
-  <div class="background" style="background-image:url(assets/img/background/MP_RealEstate-wireframe.jpg)"></div>
+  <!--<div class="background" style="background-image:url(assets/img/background/MP_RealEstate-wireframe.jpg)">-->
+  <div class="background" >
+    <video autoplay="" loop="" muted="">
+      <source src="assets/walkthrough.mp4" type="video/mp4">
+    </video>
+  </div>
 </section>
-<!-- Slide 2 (#47) -->
+<!-- Slide 2 (#47) [info]-->
 <section class="slide fade-6 kenBurns" data-name="info">
   <div class="content">
     <div class="container">
       <div class="wrap">
       
         <div class="fix-9-12 toCenter">
-          <h1 class="large margin-bottom-2 ae-1">360 Photography Overview</h1>
+          <h1 class="large margin-bottom-2 ae-1">360 Photography</h1>
           <p class="large ae-2">
             <span class="opacity-8">
-              <ul>
-                <li>Immerses the person into the space as if they were right there in the moment.</li>
-                <li>Available to you from just about anywhere 24/7.</li>
-                <li>One click on a photo or tour takes you right into the space. Pan around, and zoom in and out navigating through each room getting a full view, and visualization of the space you’re in from your own perspective.  Truly see what’s around you taking into account the whole room from every corner and angle.</li>
-              </ul>
+              Immerses the person into the space as if they were right there in the moment.<br/>
+              Open house 24/7 available to you from just about anywhere.<br/>
+              Pan around, zoom in and out navigating through each room getting a complete visualization of the space you’re in from your own perspective.<br/> 
             </span>
           </p>
-          <h3 class="large margin-bottom-2 ae-1">Target Audience:</h3>
+          <h3 class="large margin-bottom-2 ae-3">Audience</h3>
         </div>
         <div class="fix-11-12">
           <ul class="flex flex-47 margin-top-3">
             <li class="col-4-12 col-tablet-1-2 col-phablet-1-1">
-							<div class="fix-3-12 ae-3">
+							<div class="fix-3-12 ae-4">
                 <i class="material-icons">home</i>
                 <h4 class="smallest margin-bottom-1">Home owners</h4>
 							  <p class="small opacity-8">
@@ -203,7 +214,7 @@
               </div>
             </li>
             <li class="col-4-12 col-tablet-1-2 col-phablet-1-1">
-							<div class="fix-3-12 ae-4">
+							<div class="fix-3-12 ae-5">
                 <i class="material-icons">home_work</i>
                 <h4 class="smallest margin-bottom-1">Realtors</h4>
                 <p class="small opacity-8">
@@ -213,7 +224,7 @@
               </div>
             </li>
             <li class="col-4-12 col-tablet-1-2 col-phablet-1-1">
-							<div class="fix-3-12 ae-5">
+							<div class="fix-3-12 ae-6">
                 <i class="material-icons">store</i>
                 <h4 class="smallest margin-bottom-1">Business</h4>
                 <p class="small opacity-8">
@@ -223,7 +234,7 @@
               </div>
             </li>
             <li class="col-6-12 col-tablet-1-2 col-phablet-1-1">
-							<div class="fix-5-12 ae-6">
+							<div class="fix-5-12 ae-7">
                 <i class="material-icons">hotel</i>
                 <h4 class="smallest margin-bottom-1">Travel/Leisure</h4>
                 <p class="small opacity-8">
@@ -233,7 +244,7 @@
               </div>
             </li>
             <li class="col-6-12 col-tablet-1-2 col-phablet-1-1">
-							<div class="fix-5-12 ae-7">
+							<div class="fix-5-12 ae-8">
                 <i class="material-icons">local_fire_department</i>
                 <h4 class="smallest margin-bottom-1">Insurance</h4>
                 <p class="small opacity-8">
@@ -262,9 +273,9 @@
             <li class="col-5-12 left">
               <h1 class="margin-top-1 margin-bottom-2 ae-1 fromLeft">Real Estate</h1>
               <p class="large ae-2 fromLeft"><span class="opacity-8">
-                Bridge the gap between realtor and home buyer like never seen before.  
-                Virtual open house 24/7.
-                Embrace technology and set a new standard in the real estate world.
+                Bridge the gap between realtor and home buyer like never seen before.
+                Embrace technology, going beyond static photos, and traditional virtual tours.  
+                Set a new standard in the real estate world offering a true immersive experience 24/7.
               </span></p>
               <a href="#" class="button blue rounded crop ae-3 fromCenter">Contact Us</a>
             </li>
@@ -282,19 +293,19 @@
             <li class="col-4-12">
               <div class="fix-3-12">
                 <div class="ae-3" style="font-size: 48px;">90%</div>
-                <div class="ae-5"><p class="opacity-8">Transform the out of town buying experience. Over 90% of people across all demographics search on-line.</p>
+                <div class="ae-5"><p class="opacity-8">Transform the out of town buying experience. Over 90% of people across all demographics search on-line.</p></div>
               </div>
             </li>
             <li class="col-4-12">
               <div class="fix-3-12 ae-4">
                 <div class="ae-5" style="font-size: 48px;">80%</div>
-                <div class="ae-6"><p class="opacity-8">80% of online buyers want to see visuals of property before purchasing. 360 virtual tours generate over 80% more views.</p>
+                <div class="ae-6"><p class="opacity-8">80% of online buyers want to see visuals of property before purchasing. 360 virtual tours generate over 80% more views.</p></div>
               </div>
             </li>
             <li class="col-4-12">
               <div class="fix-3-12 ae-5">
                 <div class="ae-6" style="font-size: 48px;">900</div>
-                <div class="ae-7"><p class="opacity-8">Estimates show greater than 900 people move to Florida each day. Connect with these out of town home buyers and ease their transition, and boost your sales and rentals .</p>
+                <div class="ae-7"><p class="opacity-8">Estimates show greater than 900 people move to Florida each day. Connect with these out of town home buyers and ease their transition, and boost your sales and rentals .</p></div>
               </div>
             </li>
           </ul>
@@ -339,16 +350,41 @@
             <li class="col-1-12"></li>
             <li class="col-5-12 left">
               <h1 class="smallest margin-top-1 margin-bottom-2 ae-2 fromRight">Business</h1>
-              <p class="large ae-3 fromRight"><span class="opacity-8">I'm sure you could win with a design that I&rsquo;d cast off as trash. Such is the curious case of the annual Garbage&nbsp;Festival.</span></p>
-              <a class="button blue rounded crop margin-top-1 ae-4 fromCenter">Get Started</a>
+              <p class="large ae-3 fromRight"><span class="opacity-8">
+                Your business deserves to be seen. Use 360 photography to your advantage, and help your business grow and be a success in today’s competitive market.
+              </span></p>
+              <a class="button blue rounded crop margin-top-1 ae-4 fromCenter">Contact Us</a>
             </li>
           </ul>
         </div>
-      </div>
 
+        <div class="fix-10-12 margin-top-4">  
+          <ul class="flex flex-49 later equal">
+            <li class="col-4-12">
+              <div class="fix-3-12">
+                <i class="material-icons ae-3 fromCenter">voice_chat</i>
+                <div class="ae-5"><p class="opacity-8">Showcase and highlight your business, and stand out above the competition</p>
+              </div>
+            </li>
+            <li class="col-4-12">
+              <div class="fix-3-12 ae-4">
+                <i class="material-icons fromCenter">local_cafe</i>
+                <div class="ae-6"><p class="opacity-8">Capture the essence and ambience of your business, and give people the opportunity to experience all your business has to offer</p>
+              </div>
+            </li>
+            <li class="col-4-12">
+              <div class="fix-3-12 ae-5">
+                <i class="material-icons fromCenter">phone_iphone</i>
+                <div class="ae-7"><p class="opacity-8">Generate more on-line traffic and attention to your business and reach across all demographics</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+      </div>
     </div>
   </div>
-  <div class="background" style="background-image:url(assets/img/background/carolina-marinelli-PkbyxvkGWcU-unsplash.jpg)"></div>
+  <div class="background" style="background-image:url(assets/img/background/jared-lisack-xG5XhK89bm0-unsplash.jpg)"></div>
 </section>
 
 <!-- Popup Video -->
@@ -376,8 +412,11 @@
           <ul class="flex fixedSpaces reverse">
             <li class="col-5-12 left">
               <h1 class="margin-top-1 margin-bottom-2 ae-1 fromLeft">Insurance</h1>
-              <p class="large ae-2 fromLeft"><span class="opacity-8">A chair is the first thing you need when you don&rsquo;t really need anything, and is therefore a peculiarly compelling symbol of&nbsp;civilization.</span></p>
-              <a href="#" class="button blue rounded crop ae-3 fromCenter">Get Started</a>
+              <h4 class="margin-top-1 margin-bottom-2 ae-1 fromLeft">For ALL homeowners and businesses</h4>
+              <p class="large ae-2 fromLeft"><span class="opacity-8">
+                <strong>Disaster Preparedness</strong> - Empower yourself and be prepared for natural and unforeseen disasters (floods, hurricanes, tornados, fires, etc)
+              </span></p>
+              <a href="#" class="button blue rounded crop ae-3 fromCenter">Contact Us</a>
             </li>
             <li class="col-1-12"></li>
             <li class="col-6-12">
@@ -387,8 +426,31 @@
             </li>
           </ul>
         </div>
-      </div>
 
+        <div class="fix-10-12 margin-top-4">  
+          <ul class="flex flex-49 later equal">
+            <li class="col-4-12">
+              <div class="fix-3-12">
+                <i class="material-icons ae-3 fromCenter">search</i>
+                <div class="ae-5"><p class="opacity-8">A 360 virtual tour provides a current detailed view of your home, rental/vacation property, business and its contents</p></div>
+              </div>
+            </li>
+            <li class="col-4-12">
+              <div class="fix-3-12 ae-4">
+                <i class="material-icons fromCenter">security</i>
+                <div class="ae-6"><p class="opacity-8">Safe and secure all in one place. Eliminate stress and worry looking for photos when an unforeseen event occurs</p></div>
+              </div>
+            </li>
+            <li class="col-4-12">
+              <div class="fix-3-12 ae-5">
+                <i class="material-icons fromCenter">policy</i>
+                <div class="ae-7"><p class="opacity-8">Submit your 360 virtual tour alongside your claim and reduce turnover rates with insurance.</p></div>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+      </div>
     </div>
   </div>
   <div class="background" style="background-image:url(assets/img/background/nasa-i9w4Uy1pU-s-unsplash.jpg)"></div>
@@ -402,7 +464,7 @@
       <div class="wrap">
         <div class="fix-10-12">
           <div class="embedVideo popupContent shadow rounded">
-            <iframe src="https://my.matterport.com/show/?m=Wxjkubw85mF&amp;title=0&amp;f=0&amp;mls=1&amp;play=0&amp;qs=0&amp;brand=0&amp;dh=1&amp;gt=0&amp;hr=0&amp;vr=0&amp;pin=0" frameborder="0" allowtransparency="" title="Home inventory documentation"></iframe>
+            <iframe src="https://my.matterport.com/show/?m=Wxjkubw85mF&amp;title=0&amp;f=0&amp;mls=1&amp;play=1&amp;qs=0&amp;brand=0&amp;dh=1&amp;gt=0&amp;hr=0&amp;vr=0&amp;pin=0" frameborder="0" allowtransparency="" title="Home inventory documentation"></iframe>
           </div>
         </div>
       </div>
@@ -425,13 +487,38 @@
             <li class="col-1-12"></li>
             <li class="col-5-12 left">
               <h1 class="smallest margin-top-1 margin-bottom-2 ae-2 fromRight">Travel &amp; Hospitality</h1>
-              <p class="large ae-3 fromRight"><span class="opacity-8">I'm sure you could win with a design that I&rsquo;d cast off as trash. Such is the curious case of the annual Garbage&nbsp;Festival.</span></p>
-              <a class="button blue rounded crop margin-top-1 ae-4 fromCenter">Get Started</a>
+              <p class="large ae-3 fromRight"><span class="opacity-8">
+                In this hectic world we live in, we all need to find a home away from home while traveling. Vacations, business meetings or live events, let 360 photography showcase your property and all it has to offer your guests.
+              </span></p>
+              <a class="button blue rounded crop margin-top-1 ae-4 fromCenter">Contact Us</a>
             </li>
           </ul>
         </div>
-      </div>
 
+        <div class="fix-10-12 margin-top-4">  
+          <ul class="flex flex-49 later equal">
+            <li class="col-4-12">
+              <div class="fix-3-12">
+                <i class="material-icons ae-3 fromCenter">3d_rotation</i>
+                <div class="ae-5"><p class="opacity-8">Allow guests an immersive view of all available rooms.</p>
+              </div>
+            </li>
+            <li class="col-4-12">
+              <div class="fix-3-12 ae-4">
+                <i class="material-icons fromCenter">devices</i>
+                <div class="ae-6"><p class="opacity-8">Generate more views and traffic to your site, reaching across all demographics</p>
+              </div>
+            </li>
+            <li class="col-4-12">
+              <div class="fix-3-12 ae-5">
+                <i class="material-icons fromCenter">thumb_up</i>
+                <div class="ae-7"><p class="opacity-8">Stand out above the competition and showcase the unique features of your property</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+      </div>
     </div>
   </div>
   <div class="background" style="background-image:url(assets/img/background/shawn-lee-0sSJMTfLXUI-unsplash.jpg)"></div>
@@ -452,83 +539,22 @@
     </div>
   </div>
 </div>
-<!-- Slide 7 (#84) -->
-<section class="slide fade-6 kenBurns" data-name="pricing">
+<!-- Slide 7 (#84) [Contact Us]-->
+<section class="slide fade-6 kenBurns" data-name="contact">
   <div class="content">
     <div class="container">
       <div class="wrap">
       
-        <div class="fix-12-12">
-          <h1 class="smaller margin-bottom-2 ae-1">Choose Plan</h1>
-          <ul class="flex flex-84 noSpaces equal equalMobile ae-2 fromCenter">
-            <li class="col-3-12 ae-3" style="background: #F5FBFE">
-              <h4 class="smaller margin-bottom-1">Moon</h4>
-              <div class="price ae-5"><span class="currency">$</span>0</div>
-              <div class="ae-5">
-                <p class="smallest uppercase bolder opacity-4">No Payment Needed</p>
-              </div>
-              <div class="margin-top-3 margin-bottom-3 equalElement ae-6">
-                <ul class="p small">
-                  <li><strong>25 Free Images</strong></li>
-                  <li class="opacity-8">Custom Domain</li>
-                  <li class="opacity-8">24/7 Customer Support</li>
-                </ul>
-              </div>
-              <a href="#" class="button blue rounded wide cropSides cropBottom ae-7">Try Free</a>
-            </li>
-            <li class="col-3-12 ae-4">
-              <h4 class="smaller margin-bottom-1">Planet</h4>
-              <div class="price ae-6"><span class="currency">$</span>6</div>
-              <div class="ae-6">
-                <p class="smallest uppercase bolder opacity-4">Billed per Month</p>
-              </div>
-              <div class="margin-top-3 margin-bottom-3 equalElement ae-7">
-                <ul class="p small">
-                  <li><strong>60 Free Images</strong></li>
-                  <li><strong>Mobile-Optimized</strong></li>
-                  <li class="opacity-8">Custom Domain</li>
-                  <li class="opacity-8">24/7 Customer Support</li>
-                </ul>
-              </div>
-              <a href="#" class="button green rounded wide cropSides cropBottom ae-8">Purchase</a>
-            </li>
-            <li class="col-3-12 ae-5">
-              <h4 class="smaller margin-bottom-1">Galaxy</h4>
-              <div class="price ae-7"><span class="currency">$</span>9</div>
-              <div class="ae-7">
-                <p class="smallest uppercase bolder opacity-4">Billed per Month</p>
-              </div>
-              <div class="margin-top-3 margin-bottom-3 equalElement ae-8">
-                <ul class="p small">
-                  <li><strong>60 Free Images</strong></li>
-                  <li><strong>Mobile-Optimized</strong></li>
-                  <li><strong>No Transaction Fees</strong></li>
-                  <li class="opacity-8">Custom Domain</li>
-                  <li class="opacity-8">24/7 Customer Support</li>
-                </ul>
-              </div>
-              <a href="#" class="button green rounded wide cropSides cropBottom ae-9">Purchase</a>
-            </li>
-            <li class="col-3-12 ae-5">
-              <h4 class="smaller margin-bottom-1">Galaxy</h4>
-              <div class="price ae-7"><span class="currency">$</span>24</div>
-              <div class="ae-7">
-                <p class="smallest uppercase bolder opacity-4">Billed per Month</p>
-              </div>
-              <div class="margin-top-3 margin-bottom-3 equalElement ae-8">
-                <ul class="p small">
-                  <li><strong>60 Free Images</strong></li>
-                  <li><strong>Mobile-Optimized</strong></li>
-                  <li><strong>No Transaction Fees</strong></li>
-                  <li><strong>Unlimited Projects</strong><span class="helpBubble relative"><div class="helpMessage">The most innovative designers <strong>consciously</strong> reject the standard and cultivate.</div></span></li>
-                  <li class="opacity-8">Custom Domain</li>
-                  <li class="opacity-8">24/7 Customer Support</li>
-                </ul>
-              </div>
-              <a href="#" class="button green rounded wide cropSides cropBottom ae-9">Purchase</a>
-            </li>
-          </ul>
-        </div> 
+        <div class="fix-7-12">
+          <div class="fix-3-12 margin-bottom-3 ae-1">
+            <img src="assets/svg/logo-main.svg" />
+          </div>
+        </div>
+        <div class="fix-8-12">
+          <h1 class="margin-bottom-2 ae-2">Contact Us</h1>
+          <p class="larger light ae-3"><span class="opacity-8">See what 360 photography can do for you.</span></p>
+          <a class="button blue rounded cropBottom ae-4 fromCenter" href="tel:561-400-0482">Phone<br />(561) 400-0482</a> <a class="button blue rounded cropBottom ae-5 fromCenter" href="mailto:info@immersography.com">E-mail<br />info@immersography.com</a>
+        </div>
         
       </div>
     </div>
@@ -557,37 +583,6 @@
   </div>
   <div class="background" style="background-image:url(assets/img/background/img-58.jpg)"></div>
 </section>
-<!-- Panel Bottom #12 -->
-<nav class="panel bottom">
-  <div class="sections desktop">
-    <div class="left"></div>
-    <div class="center">
-      <ul class="menu uppercase">
-        <li><a href="#">Tour</a></li>
-        <li><a href="#">Upgrade</a></li>
-        <li><a href="#">Help</a></li>
-        <li><a href="#">Explore</a></li>
-      </ul>
-    </div>
-    <div class="right">
-      <ul class="menu crop">
-        <li><a href="http://facebook.com/designmodo" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook"></use></svg></a></li>
-        <li><a href="http://twitter.com/designmodo" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a></li>
-        <li><a href="http://instagram.com/designmodo" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#instagram"></use></svg></a></li>
-      </ul>
-    </div>
-  </div>
-  <div class="sections compact hidden">
-    <div class="left">
-      <a href="#" title="Slides Framework"><svg style="width:82px;height:24px"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg></a>
-    </div>
-    <div class="right">
-      <span class="button actionButton sidebarTrigger" data-sidebar-id="1"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu"></use></svg></span>
-    </div>
-  </div>
-</nav>
-
-
 
 <!-- jQuery 3.5.1 -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
