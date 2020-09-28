@@ -1,6 +1,6 @@
 <!doctype html>
-<html>
-<head lang="en">
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta name="description" content="Immersography Immersive Photography for Real Life."/>
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
@@ -18,8 +18,7 @@
     <link rel="stylesheet" as="font" href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Material+Icons&display=swap"/>
     <style>
         .slides { font-family: 'Inter', sans-serif; }
-        .background video,
-        .background picture img
+        .background video
         {
           position: absolute;
           left: 50%;
@@ -27,6 +26,18 @@
           transform: translate(-50%, -50%);
           min-width: 100%;
           min-height: 100%;
+        }
+        .background picture
+        {
+          width: 100%;
+          height: 100%;
+          display: flex;
+        }
+        .background picture img
+        {
+          object-fit: cover;
+          height: auto;
+          width: 100%;
         }
     </style>
     <meta name="robots" content="noindex, nofollow" />
@@ -175,7 +186,7 @@
   </div>
   <!--<div class="background" style="background-image:url(assets/img/background/MP_RealEstate-wireframe.jpg)">-->
   <div class="background" >
-    <video autoplay loop muted playsinline poster="assets/walkthrough.png">
+    <video autoplay loop muted playsinline poster="assets/walkthrough.webp">
       <source src="assets/walkthrough.mp4" type="video/mp4" />
       <source src="assets/walkthrough.webm" type="video/webm" />
     </video>
