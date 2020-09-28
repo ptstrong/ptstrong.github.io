@@ -1,6 +1,16 @@
 <!doctype html>
 <html lang="en">
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-179152667-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-179152667-1');
+    </script>
+
     <meta charset="UTF-8">
     <meta name="description" content="Immersography Immersive Photography for Real Life."/>
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
@@ -20,12 +30,10 @@
         .slides { font-family: 'Inter', sans-serif; }
         .background video
         {
-          position: absolute;
-          left: 50%;
-          top: 50%;
-          transform: translate(-50%, -50%);
-          min-width: 100%;
-          min-height: 100%;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          object-position: 50% 50%;
         }
         .background picture
         {
@@ -145,11 +153,11 @@
       <li><a href="privacy.html">Privacy Policy</a></li>
       <li><a href="terms.html">Terms of Service</a></li>
     </ul>
-    <!-- <ul class="social opacity-8">
-      <li><a href="#"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook"></use></svg></a></li>
-      <li><a href="#"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a></li>
-      <li><a href="#"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#instagram"></use></svg></a></li>
-    </ul> -->
+    <ul class="social opacity-8">
+      <!-- <li><a href="#"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook"></use></svg></a></li> -->
+      <li><a href="https://twitter.com/immersography"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a></li>
+      <li><a href="https://www.instagram.com/immersography/"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#instagram"></use></svg></a></li>
+    </ul>
   </div>
 </nav>
 
@@ -160,14 +168,14 @@
       <div class="wrap">
       
         <div class="fix-7-12">
-          <div class="fix-3-12 margin-bottom-3">
+          <div class="fix-3-12 margin-bottom-3 ae-1">
             <img class="hideForPhone" alt="Immersography" src="assets/svg/logo-main.svg" />
           </div>
-          <div class="fix-6-12 margin-top-3"> 
-            <h1 class="large margin-bottom-2 ae-1">Immersive Photography for Real Life</h1>
+          <div class="fix-6-12 margin-top-3 ae-2"> 
+            <h1 class="large margin-bottom-2">Immersive Photography for Real Life</h1>
           </div>
-          <div class="fix-6-12 margin-top-3">
-            <p class="large cropBottom ae-2">
+          <div class="fix-6-12 margin-top-3 ae-3">
+            <p class="large cropBottom">
               <span class="opacity-8">
                 Welcome to 360 photography.
                 An immersive, innovative platform for <strong class="boldest">REALTORS</strong>, <strong class="boldest">HOME OWNERS</strong>, AND <strong class="boldest">BUSINESS OWNERS</strong>.
@@ -176,7 +184,7 @@
               </span>
             </p>
           </div>
-          <div class="margin-top-3">
+          <div class="margin-top-3 ae-4">
             <a class="button indigo rounded cropBottom ae-5 fromCenter" href="#contact">Contact Us</a>
           </div>
         </div>
