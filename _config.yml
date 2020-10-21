@@ -10,5 +10,6 @@ title: Immersography
 description: Immersography - Immersive Photography for Real Life
 url: "https://www.immersography.com"
 image: /assets/svg/logo-header.svg
+twitter: immersography
 plugins:
   - jekyll-sitemap
